@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "HomeNote",
+  "description": "This extension is a starting point to create a real Chrome extension",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-rOq6j2zBV2FJ6/05NImC6gRP9sWamk6zL3WhC2Uu5J8='; object-src 'self'",
+  "permissions": [
+  ]
+}
