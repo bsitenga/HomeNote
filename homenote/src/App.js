@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import InfoBar from './components/InfoBar';
 
 function App() {
+
   return (
     <div className="App">
-      Main Page
+      <InfoBar />
     </div>
   );
 }
