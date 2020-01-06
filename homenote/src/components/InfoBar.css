@@ -1,28 +1,49 @@
+.InfoBar {
+	padding-bottom: 1vh;
+	border-bottom: 1px solid #ddd;
+	-webkit-box-shadow: 0px 3px 3px #eee;
+	-moz-box-shadow: 0px 3px 3px #eee;
+	box-shadow: 0px 3px 3px #eee;
+}
+
 .fadeIn {
-    opacity: 1;
-    animation: fade1 1s linear;
+	opacity: 1;
+	animation: fade1 1s linear;
 }
 
 .fadeOut {
-    opacity: 1;
-    animation: fade2 1s linear;
+	opacity: 1;
+	animation: fade2 1s linear;
 }
 
 .user-greeting {
-    font-size: 2.5em;
-    margin-top: 1vh;
+	font-size: 2.5em;
+	margin-top: 1vh;
+}
+
+.left-info {
+	margin-left: 1vw;
 }
 
 .right-info {
-    float: right;
+	float: right;
+	margin-right: 1vw;
 }
 
 @keyframes fade1 {
-    0% { opacity: 0 }
-    100% {opacity: 1 }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes fade2 {
-    0% { opacity: 1 }
-    100% {opacity: 0 }
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
