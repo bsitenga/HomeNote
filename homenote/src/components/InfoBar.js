@@ -18,7 +18,7 @@ function InfoBar() {
 	function greetUser() {
 		let user = localStorage.getItem('userIDtester2');
 		if (user) {
-			return <div className = "fadeIn">Hi, {user}.</div>;
+			return <span className = "fadeIn">Hi, {user}</span>;
 		} else {
 			return (
 				<div>
@@ -34,8 +34,14 @@ function InfoBar() {
 	}
 
 	return <div className="InfoBar">
-        <div>
-            {greetUser()}
+        <div className = "user-greeting">
+            <span className = "left-info">
+                {greetUser()}
+            </span>
+            
+            <span className = "right-info">
+                <button>Trends</button>
+            </span>
         </div>
     </div>;
 }
