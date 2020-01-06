@@ -1,3 +1,5 @@
 body {
     font-family: "Verdana";
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
