@@ -1,5 +1,6 @@
 .NoteBar {
     display: inline-block;
-    width: 55vw;
+    width: 60vw;
     height: 99vh;
+    background-color: #f6f6f6;
 }

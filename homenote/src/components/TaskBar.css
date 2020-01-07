@@ -1,6 +1,10 @@
 .TaskBar {
     display: inline-block;
-    width: 30vw;
+    width: 25vw;
     border-right: 1px solid #ddd;
     height: 99vh;
+}
+
+.complete {
+    text-decoration: line-through;
 }
