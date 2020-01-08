@@ -1,0 +1,11 @@
+.task {
+    border: none;
+    background: none;
+    display: block;
+    outline: none;
+    font-family: "Verdana";
+}
+
+.complete {
+    text-decoration: line-through;
+}
