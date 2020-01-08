@@ -8,9 +8,13 @@ function App() {
 
   return (
     <div className="App">
-      <InfoBar />
-      <TaskBar />
-      <NoteBar />
+      <div classname = "row">
+        <InfoBar />
+      </div>
+      <div className = "row next-row">
+        <TaskBar />
+        <NoteBar />
+      </div>
     </div>
   );
 }

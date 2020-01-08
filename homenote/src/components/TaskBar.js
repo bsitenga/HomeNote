@@ -13,7 +13,7 @@ function TaskBar() {
         {taskDay}
       </div>
       <div className = "tasks">
-        {tasks.map((task, index) => (
+{tasks.map((task, index) => (
 <p className = {task[1]}>{task[0]}</p>
         ))}
       </div>

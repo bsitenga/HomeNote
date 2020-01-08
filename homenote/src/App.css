@@ -3,3 +3,13 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.next-row {
+    height: 100vh;
+}

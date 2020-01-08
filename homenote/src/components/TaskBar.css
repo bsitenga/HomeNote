@@ -1,8 +1,12 @@
 .TaskBar {
-    display: inline-block;
-    width: 25vw;
+    float: left;
+    width: 25%;
     border-right: 1px solid #ddd;
-    height: 99vh;
+    height: 100%;
+}
+
+.tasks {
+
 }
 
 .complete {
